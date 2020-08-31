@@ -14,7 +14,13 @@
     width: 40%;
     height: 60px;
 }
-
+.smallorderbox{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 80%;
+    height: 60px;
+}
 .total{
     margin: 30px;
     text-align: bottom;

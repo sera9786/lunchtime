@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../assets/Order.css'
 
+class counter extends Component {
+  state = {
+    number: 0
+  }
+  handleIncrease = () => {
+    this.setState({
+      number: this.state.number + 1
+    })
+  }
+  handleDecrese = () => {
+    this.setState({
+      number: this.state.number - 1
+    })
+  }
+  render(){
+    const {number} = this.state
+    const {handleIncrease, handleDecrese} = this
+    return(
+      <div>
+        <label>{number}개</label>
+        <div className="btnbox">
+          <button onClick={handleIncrease}>+</button>
+          <button onClick={handleDecrese}>-</button>
+        </div>
+      </div>
+    )
+  }
+}
 
 const Order = () => {
-  const name = "꼬치우동"
-  const price = "4,700";
     return (
         <div>
             <h1>
@@ -12,6 +38,10 @@ const Order = () => {
             </h1>
 
             <div className="order-box">
+              <div className="smallorderbox">
+                <label>찌개류</label>
+                <counter></counter>
+              </div>
               <div className="total">
                 total : 10,000원
               </div>
