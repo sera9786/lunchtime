@@ -1,13 +1,26 @@
 .order-box{
     border: 1px solid black;
     width: 30%;
-    height: 450px;
+    height: 500px;
     border-radius: 25px;
     float: right;
+    margin: 30px
+}
+
+.menubox{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 40%;
+    height: 60px;
 }
 
 .total{
     margin: 30px;
     text-align: bottom;
     font-size: 30px;
-}   
+}
+.btnbox{
+    float: right;
+    display: block;
+}
