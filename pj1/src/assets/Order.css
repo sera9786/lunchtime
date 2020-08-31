@@ -1,0 +1,13 @@
+.order-box{
+    border: 1px solid black;
+    width: 30%;
+    height: 450px;
+    border-radius: 25px;
+    float: right;
+}
+
+.total{
+    margin: 30px;
+    text-align: bottom;
+    font-size: 30px;
+}   
