@@ -12,17 +12,19 @@ const Menu = () => {
           </div>
           <div className="basic_box">
             <span>기본메뉴</span>
-            <p>라면: 2,400</p>
-            <p>김밥: 1,800</p>
-            <p>참치김밥: 2,900</p>
-            <p>맛담김밥: 2,500</p>
-            <p>떡볶이: 2,400</p>
-            <p>꼬치어묵: 600</p>
-            <p>삶은계란: 500</p>
-            <p>왕만두: 900</p>
+            <div className="menu_ext">
+                <p>라면: 2,400</p>
+                <p>김밥: 1,800</p>
+                <p>참치김밥: 2,900</p>
+                <p>맛담김밥: 2,500</p>
+                <p>떡볶이: 2,400</p>
+                <p>꼬치어묵: 600</p>
+                <p>삶은계란: 500</p>
+                <p>왕만두: 900</p>
+            </div>
           </div>
           <div className="menu_box">
-            <table style={tableStyle}> 
+            <table> 
                 <tbody> 
                     <tr align="center"> 
                         <td width="50">구분</td> 
@@ -63,7 +65,5 @@ const Menu = () => {
         </div>
     )
 }
-const tableStyle = {
-    border: '1px'
-}
+
 export default Menu;

@@ -49,21 +49,21 @@ const Order = () => {
 
           <div className="menubox">
             <label>찌개류</label>
-            <div className="btnbox">
+            <div className="orderbtnbox">
               <button>추가하기</button>
               <button>상세보기</button>
             </div>
           </div>
           <div className="menubox">
             <label>덮밥&볶음밥류</label>
-            <div className="btnbox">
+            <div className="orderbtnbox">
               <button>추가하기</button>
               <button>상세보기</button>
             </div>
           </div>
           <div className="menubox">
             <label>면류</label>
-            <div className="btnbox">
+            <div className="orderbtnbox">
               <button>추가하기</button>
               <button>상세보기</button>
             </div>

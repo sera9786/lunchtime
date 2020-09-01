@@ -26,7 +26,13 @@
     text-align: bottom;
     font-size: 30px;
 }
-.btnbox{
+.orderbtnbox{
     float: right;
     display: block;
+}
+button{
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+    display: inline-block;
 }
